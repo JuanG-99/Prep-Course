@@ -1,0 +1,45 @@
+¿Qué son las variables?
+// Las variables son contenedores en donde podemos guardar valores temporalmente.
+Su sintaxis es: su palabra clave "var", "let" o "const", le sigue el nombre de la variable, el cual tendremos de referencia para utilizarla luego, seguido a esto podemos asignarle un valor usando el signo "=" , terminando con un punto y coma.
+De esta manera se veria: var nombre = 'valor';.
+
+                                            ---------------------------------
+
+¿Qué son los Strings?
+// Los Strings son cadenas de texto. Son conjuntos de palabras, letras o caracteres encerradas dentro de comillas dobles, comillas simples o comillas inversas.
+Los Strings son un tipo de datos.
+Sintaxis: "Esto es un string", 'Esto es un string', `Esto es un string`.
+                                            ---------------------------------
+
+
+¿Qué son las Funciones (argumentos), return?
+//Las Funciones son fragmentos o partes que dividimos de nuestro código y que podemos reutilizar las veces que queramos, a las Funciones les debemos asignar una serie de instrucciones dentro de corchetes para que ejecuten una tarea.
+Sintaxis: palabra clave "function", luego deberá nombrar esta función seguida por dos paréntesis, dentro de estos se deberán asignar los argumentos(Son como variables que nos sirven como punto de referencia, para los valores que deben ser introducidos en una función cuando se le llama.)después se abrirán los corchetes, dentro de los cuales irá el código que se ejecutara, como puede ser un "return"(sirve para devolver un valor, en este caso el valor del argumento).
+
+Se vería de la siguiente manera: 
+
+function nombreDeLaFuncion(argumento){
+
+    return argumento;
+
+}
+                                            ---------------------------------
+
+
+¿Qué son las Declaraciones 'if/else'?
+// Son instrucciones que dependiendo del valor se pueden ejecutar o no.
+En otras palabras, sirven para tomar decisiones en el código.
+Sintaxis: Palabra clave "if", luego entre paréntesis llamar la condición (la condición es una expresión que puede ser evaluada como verdadera o falsa), seguido de la sentencia 1(que es en caso de que sea verdadera) y luego la sentencia 2 ("else" que sería el caso contrario, o sea que fuera falsa).
+Se vería de las siguiente manera: if(condición){
+    codigo---;
+}else{
+    codigo----;
+}.
+                                            ---------------------------------
+
+¿Qué son los Valores booleanos (`true`, `false`)?
+// Son un tipo de dato que solo reciben dos tipos de valores, los cuales son "true" y "false" o verdadero y falso.
+Ejemplo en el caso de sí una persona pago o no.
+
+const siPago = true;// Entonces, en caso de que la persona si realizo el pago, se ejecutará como true.
+const noPago = falso;//En caso de que la persona no lo realizara, se ejecutaría como false.
